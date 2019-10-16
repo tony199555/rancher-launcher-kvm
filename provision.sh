@@ -43,7 +43,7 @@ create_vm () {
     --os-variant centos7.0 \
     --network bridge=virbr0 \
     --graphics vnc,listen=127.0.0.1,port=$VM_PORT \
-    --location /cdimages/CentOS-7-x86_64-Minimal-1804.iso \
+    --location /cdimages/CentOS-7-x86_64-Minimal-1908.iso \
     --noautoconsole \
     --initrd-inject $VM_KS --extra-args="ks=file:/$VM_KS" 
 
